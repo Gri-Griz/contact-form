@@ -11,7 +11,7 @@ form.addEventListener("submit", function (e) {
   var json = JSON.stringify(object);
   result.innerHTML = "Please wait...";
 
-  fetch("https://api.web3forms.com/submit", {
+  fetch("https://formsubmit.co/agogriselda@gmail.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

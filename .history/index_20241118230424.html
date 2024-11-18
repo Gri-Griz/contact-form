@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Contactez-nous</h2>
+    <form action="https://formsubmit.co/agogriselda@gmail.com" method="POST">
+        <!-- Champ pour le nom -->
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="nom" required>
+
+        <!-- Champ pour l'email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required>
+
+        <!-- Champ pour le message -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <!-- Bouton d'envoi -->
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
